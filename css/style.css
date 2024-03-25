@@ -5,6 +5,7 @@
 .vertical-menu {
     position: fixed;
     top: 20px;   
+    z-index: 100;
 }
   
 .vertical-menu a {
@@ -50,6 +51,8 @@
     color: #ffffff;
     display: none;
     margin-bottom: 0px;
+    font-weight: bold;
+    
 }
 
 .itemNavBar:hover{ 
@@ -68,7 +71,7 @@
     color: #346d9e;
 }
 
-.titulo.scroll-down {
+.scroll-down {
     color: #346d9e;
 }
 
@@ -89,7 +92,6 @@ h2{
     line-height: 40px;
     text-align: center;
     color: #fff;
-    z-index: 1000;
     background-color: #00CD54;
     border-radius: 50%;
     cursor: pointer;
@@ -199,23 +201,82 @@ h2{
     text-align: justify;
 }
 
-
+/* ---- NUESTROS EQUIPOS ---- */
 
 .equiposContainer{
     display: flex;
 }
 
-.color3{
-    height: 300px;
-    width: 100%;
-    background-color: yellow;
+.card{
+    border: none;
 }
 
-.color4{
-    height: 300px;
-    width: 100%;
-    background-color: rgb(255, 0, 128);
+.card-title{
+    color: #428bca;
+    margin-top: 25px;
+    font-size: 35px;
 }
+
+.card-text{
+    color: #428bca;
+    margin-top: 20px;
+
+}
+
+
+/* ---- CERTIFICACIONES ---- */
+
+.isoCard{
+    border: 1px solid #ddd;
+}
+
+.isoCard img{
+    padding: 20%;
+    margin: 10%;
+}
+
+.isoCard .card-title{
+
+    font-size: 32px;
+}
+
+.iso{
+    width: 50%;
+    margin: auto;
+}
+
+.wqa{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+
+.wavesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wavesContainer img {
+    max-width: 100%;
+    height: 300px;
+    margin: 0 10px; /* Espacio entre las imágenes */
+}
+
+.wavesP {
+    color: #428bca;
+}
+
+.certCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* ---- NOSOTROS ---- */
+
+
 
 
 @media only screen and (max-width: 500px) {
