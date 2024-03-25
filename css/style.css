@@ -56,10 +56,7 @@
     color: #346d9e;
 }
 
-.frontContainer{
-    width: 100%;
-    height: 100vh;
-}
+
 
 .titulo {
     font-size: 3vw; 
@@ -83,6 +80,27 @@ h2{
     margin-bottom: 50px;
 }
 
+#btnWhatsApp{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    z-index: 1000;
+    background-color: #00CD54;
+    border-radius: 50%;
+    cursor: pointer;
+}
+    
+#btnWhatsApp:hover{
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    transition: 0.5s;
+}
 
 
 
@@ -91,16 +109,100 @@ h2{
     height: 100vh;
 }
 
-.color1{
-    height: 300px;
-    width: 100%;
-    background-color: red;
+/* ---- BENEFICIOS AGUA KANGEN ---- */
+
+.benefitsContainer{
+    display: flex;
 }
 
-.color2{
-    height: 300px;
+.commentBeneficios{
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin: 10px 20px;
+    font-style: italic;
+    color: #428bca;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.benefitsSubtitles{
+    display: flex;
+}
+
+.benefitsItemsContainer{
+    display: flex;
+}
+
+.benefitsSection {
+    width: 50%;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    padding: 30px;
+    margin: 10px 10px;
+    color: #428bca;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.hexagono2 {
+    clip-path: polygon(10px 0, 18px 5px, 18px 15px, 10px 20px, 2px 15px, 2px 5px);
+    transform: rotate(90deg);    
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.hexa3 {
+    background: #428bca;
+
+}
+
+.hexa4 {
+    background: #86bff0;
+}
+
+.itemText{
+    padding-top: 7px;
+    align-items: center; 
+    width: 450px;     
+}
+
+.tiposAgua{
+    color:#428bca;
+    font-size: 1.75rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tipoBtn{
+    color: white;
+    background-color: #428bca; 
+    border: 1px solid #2e608b;
     width: 100%;
-    background-color: green;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.tipoBtn:hover{
+    background-color: #346d9e; 
+    color: white;
+}
+
+.tiposAguaText{
+    padding: 30px;
+    margin: 10px 20px;
+    font-style: italic;
+    color: #428bca;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+.equiposContainer{
+    display: flex;
 }
 
 .color3{
@@ -146,6 +248,19 @@ h2{
         font-size: 25px;
     }
 
+    .benefitsContainer{
+        display: block;
+    }
+
+    .benefitsSubtitles{
+        display: block;
+    }
+
+    .benefitsSection {
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 30px;
+    }
 } 
 
 @media only screen and (min-width: 501px) and (max-width: 1023px) {
@@ -178,4 +293,17 @@ h2{
         font-size: 50px;
     }
 
+    .benefitsContainer{
+        display: block;
+    }
+
+    .benefitsSubtitles{
+        display: block;
+    }
+
+    .benefitsSection {
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 30px;
+    }
 }
