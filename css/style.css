@@ -316,9 +316,7 @@ footer svg{
 /* ----------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 500px) {
-    * {
-        /* overflow-x: hidden; }  */
-    }
+
     .imgfront{
         height: 65vh;     
         object-fit:cover
@@ -467,11 +465,11 @@ footer svg{
 } 
 
 @media only screen and (min-width: 501px) and (max-width: 1023px) {
-    * {
-        overflow-x: hidden; } 
+
+
     .imgfront{
-        height: 65vh;     
-        object-fit:cover
+        height: 45vh;     
+        height: 50vh;
     }
 
     .vertical-menu { 
@@ -508,5 +506,21 @@ footer svg{
         width: 100%;
         border: 1px solid #ddd;
         padding: 30px;
+    }
+
+    .wavesContainer img {
+        height: 170px;
+        margin-left: 15px;
+    }
+
+    .tipoBtn {
+        width: 90%;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    .certCards .card-img-top {
+        height: 6rem;
+        width: 6rem;
     }
 }
