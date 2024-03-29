@@ -177,14 +177,6 @@ h2{
     width: 450px;     
 }
 
-.tiposAgua{
-    color:#428bca;
-    font-size: 1.75rem;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
 .tipoBtn{
     color: white;
     background-color: #428bca; 
@@ -194,10 +186,7 @@ h2{
     margin-top: 5px;
 }
 
-.tipoBtn:hover{
-    background-color: #346d9e; 
-    color: white;
-}
+
 
 .tiposAguaText{
     padding: 30px;
@@ -324,9 +313,11 @@ footer svg{
 }
 
 
+/* ----------------------------------------------------------------------------------------------- */
+
 @media only screen and (max-width: 500px) {
     * {
-        overflow-x: hidden; } 
+        /* overflow-x: hidden; }  */
     .imgfront{
         height: 65vh;     
         object-fit:cover
@@ -354,8 +345,28 @@ footer svg{
         font-size: 25px;
     }
 
+    h2{
+        margin-left: 25px;
+    }
+
+    h3{
+        margin-left: 25px;
+    }
+
     .benefitsContainer{
         display: block;
+    }
+
+    .hexagono2 {
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        padding: 0;
+        margin-left: 0px;
+    }
+
+    .itemText{
+        margin-top: 20px;    
     }
 
     .benefitsSubtitles{
@@ -365,13 +376,92 @@ footer svg{
     .benefitsSection {
         width: 100%;
         border: 1px solid #ddd;
-        padding: 30px;
+        padding: 10px;
+    }
+
+    .benefitsSection ul{
+        padding-left: 0px;
+        margin-left: 0px;
     }
 
     .commentBeneficios{
         padding: 10px;
-        margin: 10px 10px;
+        margin: 10px 10px 10px 15px;
         font-size: 20px;
+    }
+
+    .tipoBtn{
+        width: 90%;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    #certificaciones h2{
+        font-size: 30px;
+    }
+
+    .wavesContainer img {
+        height: 90px;
+        margin-left: 15px;
+    }
+
+    .equiposContainer .card-body{
+        margin-left: 15px;
+    }
+
+    .equiposContainer .card-title{
+        text-align: center;
+    }
+
+    .equiposContainer .card-text{
+        text-align: center;
+    }
+
+    .equiposContainer img{
+        margin-left: 15px;
+    }
+
+    .isoCard .card-body{
+        margin-top: 10px;    
+    }
+
+    .isoCard .card-title{
+        margin-left: 15px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .isoCard .card-text{
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .isoBenContainer .card-body{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .isoCard img{
+        padding: 0%;
+        margin: 30%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .wavesP{
+        margin-left: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .certCards .card-img-top {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    #nosotros .container .card {
+        max-width: 90% !important;
+        margin-left: 20px;
     }
 } 
 
