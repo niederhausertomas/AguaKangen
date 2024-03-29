@@ -318,6 +318,7 @@ footer svg{
 @media only screen and (max-width: 500px) {
     * {
         /* overflow-x: hidden; }  */
+    }
     .imgfront{
         height: 65vh;     
         object-fit:cover
