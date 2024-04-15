@@ -10,30 +10,30 @@ function toggleTitulo(className) {
 }
 
 
-window.addEventListener('scroll', function() {
-    let titulo = document.querySelector('.titulo')
-    let itemNavBars = document.querySelectorAll('.itemNavBar')
+// window.addEventListener('scroll', function() {
+//     let titulo = document.querySelector('.titulo')
+//     let itemNavBars = document.querySelectorAll('.itemNavBar')
     
-    let umbral
+//     let umbral
     
-    if (window.innerWidth <= 500) { 
-        umbral = 100; 
-    } else {
-        umbral = 300;
-    }
+//     if (window.innerWidth <= 500) { 
+//         umbral = 100; 
+//     } else {
+//         umbral = 300;
+//     }
 
-    if (window.scrollY > umbral) {
-        titulo.classList.add('scroll-down')
-        itemNavBars.forEach(function(itemNavBar) {
-            itemNavBar.classList.add('scroll-down')
-        });
-    } else {
-        titulo.classList.remove('scroll-down');
-        itemNavBars.forEach(function(itemNavBar) {
-            itemNavBar.classList.remove('scroll-down')
-        });
-    }
-});
+//     if (window.scrollY > umbral) {
+//         titulo.classList.add('scroll-down')
+//         itemNavBars.forEach(function(itemNavBar) {
+//             itemNavBar.classList.add('scroll-down')
+//         });
+//     } else {
+//         titulo.classList.remove('scroll-down');
+//         itemNavBars.forEach(function(itemNavBar) {
+//             itemNavBar.classList.remove('scroll-down')
+//         });
+//     }
+// });
 
 // ------- mail --------------
 
