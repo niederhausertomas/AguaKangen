@@ -10,6 +10,22 @@ function toggleTitulo(className) {
 }
 
 
+// -------- Carrousel -------------- 
+
+function changeBannerImage(newImageSrc, title, paragraph) {
+    let bannerImage = document.querySelector('.banner img')
+    let bannerTitle = document.querySelector('.banner h5')
+    let bannerParagraph = document.querySelector('.banner p')
+    bannerImage.src = newImageSrc
+    bannerTitle.textContent = title
+    bannerParagraph.textContent = paragraph
+  }
+
+
+
+
+
+
 // window.addEventListener('scroll', function() {
 //     let titulo = document.querySelector('.titulo')
 //     let itemNavBars = document.querySelectorAll('.itemNavBar')
