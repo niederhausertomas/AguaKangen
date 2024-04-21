@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(15, 15, 15);
+    
 }
 
 main{
@@ -461,9 +462,7 @@ footer svg{
     margin: 10px;
 }
 
-form input{
-    width: 300px;
-}
+
 
 form textarea{
     width: 300px;
@@ -472,16 +471,19 @@ form textarea{
 
 
 #contact{
-    padding: 40px;
-    width: 100%;
-    height: 150px;
-    font-size: 50px;
+    color: rgb(134, 134, 134);
+    padding: 10px;
+    width: 100%;   
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .containerContact{
-    width: 30%;
+    width: 40%;
+    height: 500px;
     border: 1px solid rgb(61, 60, 60);
     margin-top: 50px;
     margin-bottom: 50px;
@@ -496,21 +498,20 @@ form textarea{
     margin-top: 20px;
     background-color: rgb(15, 15, 15);
     border: none;
-    box-shadow: -5px 5px 10px rgba(253, 253, 253, 0.089);
-
-
+    width: 300px;
+    border-bottom: 2px rgba(71, 70, 70, 0.432) solid;
 }
 
 .btnSubmit{
     border: none;
     box-shadow: -5px 5px 10px rgba(253, 253, 253, 0.089);
-    color: white;
+    color: rgb(134, 134, 134);
+    width: 150px;
 }
 
 .btnSubmit:hover{
     background-color: rgba(66, 64, 64, 0.178);
     border-color: rgba(81, 144, 199, 0.452);
-    color: white;
 
 }
 
@@ -563,7 +564,7 @@ form textarea{
     } 
 
     #beneficios{
-        margin-top: 200px;
+        margin-top: 280px;
     }
 
     #beneficios h2{
@@ -773,10 +774,22 @@ form textarea{
         padding-right: 1rem;
     }
 
+/* ---- CONTACT ---- */
+
     #contact{
         width: 90%;
+        font-size: 25px;
+        padding: 5px;
+        margin-left: 12px;
     }
 
+    .containerContact {
+        width: 75%;
+    }
+
+    .formInputs{
+        width: 180px;
+    }
 
 } 
 
@@ -934,6 +947,23 @@ form textarea{
     border-radius: 2%;
     margin-left: 5rem;
     margin-top: -50;
+}
+
+/* ---- CONTACT ---- */
+
+#contact{
+    width: 90%;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 12px;
+}
+
+.containerContact {
+    width: 75%;
+}
+
+.formInputs{
+    width: 350px;
 }
 
 
