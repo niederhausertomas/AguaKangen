@@ -1,6 +1,6 @@
 *{
     font-family: Sans-serif;
-    color:#ffffff;
+    color: rgb(134, 134, 134);
 }
 
 body{
@@ -75,7 +75,7 @@ main{
 
 .titulo {
     font-size: 3vw; 
-    color: #ffffff;
+    color: rgb(134, 134, 134);
     transition: color 1s ease;
 }
 
@@ -101,7 +101,6 @@ h2{
     width: 40px;
     line-height: 40px;
     text-align: center;
-    color: #fff;
     fill: white;
     background-color: #00cd55a1;
     border-radius: 50%;
@@ -125,7 +124,6 @@ h2{
     width: 40px;
     line-height: 40px;
     text-align: center;
-    color: #fff;
     fill: white;
     background-color: #428bca8a;
     border-radius: 50%;
@@ -165,13 +163,18 @@ h2{
 }
 
 .slogan p{
-    color: white;
+    color: #428bca;
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 50;
 }
 
 /* ---- BENEFICIOS AGUA KANGEN ---- */
+
+.beneficios h2{
+    color:#428bca;
+
+}
 
 .benefitsContainer{
     display: flex;
@@ -186,6 +189,7 @@ h2{
 
 .benefitsSubtitles{
     display: flex;
+    color:#428bca;
 }
 
 .benefitsItemsContainer{
@@ -203,7 +207,12 @@ h2{
 }
 
 .benefitsSection .card{
-    padding: 20px;    
+    padding: 20px;   
+    background-color: rgb(15, 15, 15); 
+}
+
+.benefitsSection .card .card-text{   
+    color: rgb(134, 134, 134);
 }
 
 .hexagono2 {
@@ -230,7 +239,8 @@ h2{
 }
 
 .tipoBtn{
-    color: white;
+    color: black;
+    font-weight: bold;
     background-color: #428bca; 
     border: 1px solid #2e608b;
     width: 100%;
@@ -242,18 +252,26 @@ h2{
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
+    color:#428bca;
 }
 
 .tiposAguaText{
     padding: 30px;
-    margin: 10px 20px;
+    margin: -6px 1px;
     font-style: italic;
-    color: #428bca;
+    color: rgb(134, 134, 134);
+    background-color: rgb(15, 15, 15);
     font-size: 15px;
     text-align: justify;
+    border: none;
+    border: none !important;
 }
 
 /* ---- NUESTROS EQUIPOS ---- */
+
+#equipos{
+    color:#428bca;
+}
 
 .banner{
     width: 95%;
@@ -267,6 +285,7 @@ h2{
     text-align: center;
     margin-top: 3rem;
     font-size: 3rem;
+    color:#428bca;
 }
 
 .bannerContent p{
@@ -313,7 +332,6 @@ h2{
     height: 10rem;
 }
 
-
 .containerEquipos .card .card-img-overlay h5{
     font-size: small;
     position: absolute;
@@ -325,30 +343,34 @@ h2{
 
 
 /* ---- CERTIFICACIONES ---- */
+#certificaciones{
+    color:#428bca;
+}
 
 .isoCard{
     border: none;
+    background-color: rgb(15, 15, 15);
+
 }
 
 .isoCard img{
-    padding: 20%;
-    margin: 10%;
+    padding: 4rem;
+    margin: 2rem;
 }
 
 .isoCard .card-body{
     padding: auto;
     margin-top: 4rem;
-    color: rgb(15, 15, 15);
 }
 
 .isoCard .card-title{
     font-size: 32px;
-    color: rgb(15, 15, 15);
+    color: rgb(134, 134, 134);
 }
 
 .isoCard .card-text{
     margin-top: 35px;
-    color: rgb(15, 15, 15);
+    color: rgb(134, 134, 134);
 }
 
 .isoBenContainer{
@@ -373,6 +395,7 @@ h2{
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 35px;
+    color: #428bca;
 }
 
 .wavesContainer {
@@ -388,7 +411,12 @@ h2{
 }
 
 .wavesP {
-    color: #428bca;
+    color: rgb(134, 134, 134);
+    text-align: center;
+}
+
+.wavesP strong{
+    color: rgb(134, 134, 134);
 }
 
 .certCards{
@@ -403,54 +431,57 @@ h2{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    color:rgb(15, 15, 15);
+    color: rgb(134, 134, 134);
     text-align: center;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(134, 134, 134);;
 }
 
 .certCards .card-text{
-    color:rgb(15, 15, 15);
+    color: rgb(134, 134, 134);
 }
 
 .certCards .card-img-top{
-    height: 6rem;
+    height: 5rem;
     width: 6rem;
     padding: auto;
     margin: auto;
 }
 
 
-/* ---- NOSOTROS ---- */
+/* ------- NOSOTROS -------- */
+
+#nosotros{
+    color:#428bca;
+}
+
+.nosotros{
+    background-color: rgb(15, 15, 15);
+}
 
 .nosotros .card-body {
-    color:rgb(15, 15, 15);
     text-align: center;
 }
 
 .nosotros .card-body .card-title{
     margin-top: 3rem;
     font-size: 2.5rem;
+    color:#428bca;
 }
 
-#nosotros .card-body .card-text{
-    color:rgb(15, 15, 15);
+.nosotros .card-body .card-text{
+    color: rgb(134, 134, 134);
     align-items: center;
     margin-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
 }
 
-footer{
-    background-color: #428bca;
-    height: 10rem;
-    padding: 4rem;
+.nosotros .card-body .card-text strong{
+    color: rgb(134, 134, 134);
 }
 
-footer svg{
-    fill: white;
-}
-
-
-/* ---- CONTACT ---- */
+/* ------- CONTACT -------- */
 
 .containerForm{
     display: block;
@@ -485,8 +516,8 @@ form textarea{
     width: 40%;
     height: 500px;
     border: 1px solid rgb(61, 60, 60);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 250px;
     box-shadow: -5px 5px 10px rgba(253, 253, 253, 0.089);
 }
 
@@ -504,15 +535,29 @@ form textarea{
 
 .btnSubmit{
     border: none;
-    box-shadow: -5px 5px 10px rgba(253, 253, 253, 0.089);
+    /* box-shadow: -5px 5px 10px rgba(253, 253, 253, 0.089); */
     color: rgb(134, 134, 134);
     width: 150px;
+    background-color: rgba(26, 25, 25, 0.719);
+
 }
 
 .btnSubmit:hover{
     background-color: rgba(66, 64, 64, 0.178);
     border-color: rgba(81, 144, 199, 0.452);
+    color: rgb(134, 134, 134);
+}
 
+/*------------- Footer --------------*/
+
+footer{
+    background-color: #428bca;
+    height: 10rem;
+    padding: 4rem;
+}
+
+footer svg{
+    fill: white;
 }
 
 /* ----------------------------- Media Queries -------------------------------- */
@@ -567,7 +612,7 @@ form textarea{
         margin-top: 280px;
     }
 
-    #beneficios h2{
+    .beneficios h2 {
         font-size: 30px;
     }
     /* ---- NUESTROS EQUIPOS ---- */
@@ -767,7 +812,7 @@ form textarea{
     }
 
     #nosotros .card-body .card-text{
-        color:rgb(15, 15, 15);
+       
         align-items: baseline;
         margin-top: 3rem;
         padding-left: 1rem;
