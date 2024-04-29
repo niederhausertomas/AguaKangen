@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agua Kangen</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Julius+Sans+One&family=Reenie+Beanie&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" href="images/LOGO.jpg">
+    </head>
+<body>
+    <header>
+        <nav class="vertical-menu">
+            <div class="d-flex align-items-center">
+                <a class="flex" onclick="toggleTitulo('.titulo1')">
+                    <div class="hexagono hexa1"></div>
+                </a>
+                <a href="./index.html#beneficios">
+                    <h3 class="itemNavBar titulo1 flex" >
+                        BENEFICIOS AGUA KANGEN
+                    </h3>
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <a class="flex" onclick="toggleTitulo('.titulo2')">
+                    <div class="hexagono hexa2"></div>
+                </a>
+                <a href="./index.html#equipos">
+                    <h3 class="itemNavBar titulo2 flex">
+                        NUESTROS EQUIPOS
+                    </h3>
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <a class="flex" onclick="toggleTitulo('.titulo3')">
+                    <div class="hexagono hexa1"></div>
+                </a>
+                <a href="./index.html#certificaciones">
+                    <h3 class="itemNavBar titulo3 flex">
+                        CERTIFICACIONES
+                    </h3>
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <a class="flex" onclick="toggleTitulo('.titulo4')">
+                    <div class="hexagono hexa2"></div>
+                </a>
+                <a href="./index.html#nosotros">
+                    <h3 class="itemNavBar titulo4 flex">
+                        NOSOTROS
+                    </h3>
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+              <a class="flex" onclick="toggleTitulo('.titulo5')">
+                  <div class="hexagono hexa1"></div>
+              </a>
+              <a href="./faq.html">
+                  <h3 class="itemNavBar titulo5 flex">
+                    FAQ
+                  </h3>
+              </a>
+          </div>
+
+            <a href="./index.html">
+                <h1 class="titulo">Agua Kangen</h1>
+            </a>
+        </nav>
+        <a href="https://wa.me/541136191930" target="_blank" id="btnWhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="bi bi-whatsapp" viewBox="0 0 17 17">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+            </svg>
+        </a>
+        <a id="mailApp" href="./index.html#contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+          </svg>
+        </a>
+    </header>
+
+    <main>
+
+        <h2 class="preguntasFrecuentes">PREGUNTAS FRECUENTES</h2>
+
+        <section class="design-section">
+            <div class="timeline">
+
+                <!--  -->
+
+                        <div class="timeline-empty">
+                        </div>
+                        
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Que es el agua ionizada?</h3>
+                            <p>El agua ionizada se produce a través de un proceso llamado electrólisis, es decir se hace pasar corriente eléctrica a través del agua para separar el agua en oxigeno e hidrógeno (iones positivos y negativos).
+                            La electrólisis tiene lugar en la cámara de electrólisis que contiene placas de electrodo de cargas opuestas. El resultado es una colección de H + iones positivos y negativos iones OH- listos para neutralizar los radicales libres en el cuerpo.</p>
+                       </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Qué nivel de pH debo seleccionar en mi ionizador cuando empiezo a beber agua alcalina?</h3>
+                            <p>Empieza poco a poco por el Agua Kangen® (8,5 pH) en la primera semana. Después de algunos días, subes al (9,0 pH) durante la segunda semana, y luego al Agua Kangen® (9,5 pH) en la tercera semana.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cuánta agua alcalina debo tomar por día?</h3>
+                            <p>Los médicos dicen que es beneficioso beber al menos 8 vasos de agua por día. Si no estás acostumbrado a beber mucha agua, puedes empezar por tomar de 3-4 vasos de agua alcalina por día (aprox. 1 litro) y aumentar gradualmente tu consumo de agua a 8-12 vasos por día (de 2 a 3 litros)</p>
+                       </div>
+
+                <!--  -->
+
+                <div class="timeline-component timeline-content">
+                            <h3>¿Debo beber agua alcalina con las comidas?</h3>
+                            <p>No. Es mejor beber agua ionizada 30 minutos antes y hasta 1 o 2 horas después de las comidas. Nuestro estómago tiene que liberar ácidos para digerir los alimentos que comemos y el agua alcalina para beber con las comidas simplemente retrasa el proceso de la digestión.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+            
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cuándo es el mejor momento para beber agua alcalina?</h3>
+                            <p>En la mañana cuando te levantas de la cama. El agua se absorbe mejor en el sistema cuando el estómago está vacío. Recuerda seguir bebiendo agua alcalina durante todo el día. No olvides tomar agua ionizada 30 minutos antes y hasta 2 horas después de las comidas y medicamentos.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Puedo usar el agua alcalina para tomar mi medicamento?</h3>
+                            <p>Es mejor tomar agua ionizada 30 minutos antes y hasta 2 horas después de tomar la medicación. El tamaño de los grupos de moléculas más pequeño del agua ionizada hace que el agua penetre en las células de nuestro cuerpo mucho más rápidamente, y lo mejor es no interferir con la tasa de absorción de la medicación prescrita. Puedes sin embargo, beber el agua filtrada pura (pH 7) del ionizador con tus medicamento.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Hay efectos secundarios relacionados con el consumo de agua alcalina?</h3>
+                            <p>Cuando se empieza a beber agua alcalina, los efectos secundarios pueden incluir dolores de cabeza leves, fatiga, dolores musculares, congestión nasal y otros síntomas parecidos a la gripe. Además, las heces probablemente serán más oscuras, más suaves o más olorosas y puedes experimentar gas. Estos efectos secundarios son una buena señal, ya que están directamente relacionados con la desintoxicación que tu cuerpo está sufriendo, el agua micro agrupada penetra profundamente en los tejidos y expulsa los residuos ácidos y toxinas que se han acumulado en tu cuerpo con el tiempo. Los efectos secundarios disminuirán una vez que tu cuerpo se ha acostumbrado al agua, dependiendo de cada individuo y el nivel de desintoxicación que el cuerpo tiene que someterse, podría ser un día o hasta algunas semanas.</p>
+                        </div>
+        
+                <!--  -->
+        
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Cuándo voy a empezar a notar los beneficios para la salud?</h3>
+                            <p>Cada persona es diferente, y como tal, la respuesta del cuerpo al agua potable alcalina varía de persona a persona. Puedes empezar a notar una respuesta positiva en tan sólo un día o dentro de unas semanas.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿El agua alcalina ionizada sabe diferente?</h3>
+                            <p>Sí. El agua que entra en los ionizadores primero pasa a través de un filtro que elimina el sabor y olor del cloro contenido en el agua municipal del grifo. A continuación, la electrólisis rompe el tamaño de los grupos de moléculas de agua (normalmente de 12 a 16 moléculas), convirtiéndose en micro-grupos de 5-8 moléculas. Esto hace que el sabor del agua sea suave y sedoso. El agua alcalina tiene un gran sabor, y hace que el el cafe tenga un mejor aroma y sabor, lo mismo es para el té y jugo, también es muy útil para cocinar porque ayuda a hidratar la comida y a resaltar sabores.</p>
+                       </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿El agua alcalina ionizada es buena para los atletas?</h3>
+                            <p>¡Por supuesto! Una hidratación adecuada sostiene respuestas fisiológicas del cuerpo en todas las actividades, pero las tensiones físicas y mentales de entrenamiento deportivo y competición magnifican la importancia de la hidratación. Numerosos estudios realizados en atletas desde la década de 1940 han demostrado que incluso una leve deshidratación perjudica el rendimiento. El agua ionizada alcalina es micro-agrupada, para que pueda ser absorbida a una velocidad mayor, ayudando a rehidratación de los tejidos del cuerpo. Además, los niveles de oxígeno en la sangre aumentan con el uso regular de agua alcalina. proporciona al tejido músculoso y órganos altas cantidades de oxígeno y mejorara la resistencia. El agua que se ha alcalinizado también ayuda a neutralizar el ácido láctico inducido por el ejercicio y que se acumula en los músculos.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Puedo darle agua alcalina a mis mascotas?</h3>
+                            <p>Si. Al igual que con los seres humanos, las mascotas también se beneficiarán de una mejor hidratación, aportando antioxidantes a su sistema. Si por ejemplo tienes compañeros gatos o perros más viejos, tendrán más energía cuando empiecen a beber agua alcalina.</p>
+                       </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Hay alguien que no debería beber agua alcalina ionizada?</h3>
+                            <p>Algunas personas deben empezar por beber pequeñas cantidades de agua alcalina, como 1-2 vasos del ph 8.5 por día. Esto es casi siempre con los adultos mayores que han acumulado toxinas en el cuerpo a lo largo de su vida.
+                            Los niños menores de 3 años no deben beber agua alcalina, sólo agua purificada del ionizador (pH 7) se beneficiarán de la filtración del ionizador que elimina el cloro y otros contaminantes del agua del grifo. Los niños entre las edades de 4 y 12 años sólo deben beber agua alcalina de 8.5 a 9ph.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Puede una persona estar demasiado alcalino por beber agua alcalina?</h3>
+                            <p>No. Algunas personas beben 4 o más litros de agua alcalina ionizada todos los días y obtienen una gran cantidad de beneficios, por ejemplo si haces mucho ejercicio deberás tomar mas agua que alguien que trabaja en una oficina; la cantidad depende del esfuerzo al que tu cuerpo se vea forzado. Por el contrario, uno de los desequilibrios más comunes que tiene la gente hoy en día que conduce a problemas de salud, es que están demasiado ácidos. Cuanto mayor sea tu acidez corporal, mayor será la posibilidad de que la enfermedad se este imponiendo en tu cuerpo. De hecho, es raro que una persona adquiera alcalosis, la condición de ser demasiado alcalino. Para mantener la salud óptima debemos mantener una dieta equilibrada que incluya agua alcalina y alimentos alcalinos como frutas y verduras.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Cómo sé si estoy fuera de equilibrio del pH?</h3>
+                            <p>Varios signos externos pueden demostrar que tu cuerpo está demasiado ácido. Algunos ejemplos incluyen una erupción inexplicable, acné, ojeras debajo de los ojos, la piel agrietada y las uñas muy quebradizas, el cabello quebradizo y el exceso de peso. Otros síntomas incluyen malestar estomacal, indigestión, confusión, ira o irritabilidad, sensibilidad a los alimentos, reacciones alérgicas, infecciones recurrentes, fatiga e incluso depresión. Cuando equilibras el pH del cuerpo a través de una dieta alcalina, incluyendo alimentos frescos y agua alcalina, los mecanismos de defensa naturales del cuerpo son capaces de funcionar correctamente y luchar contra la enfermedad y naturalmente, restablecer las condiciones óptimas de salud.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cuánto tiempo tarda ionizada el agua alcalina?</h3>
+                            <p>Todos los ionizadores de agua de tamaño domestico están diseñados para “punto de uso” es decir consumo inmediato. Las moléculas de agua que han sido separadas mediante electrólisis lentamente van a volver a un estado estable. Esta es la razón por la que el agua ionizada no puede ser embotellada porque sus propiedades son temporales. Las propiedades antioxidantes (iones hidroxilo) del agua ionizada alcalina se disiparán en 18-24 horas, las propiedades de pH más altos van a volver a un nivel de pH neutro de 7 días a 1-2 semanas, y el tamaño del agrupación de molécula más pequeña tendrán una duración aproximada de 1 3 meses. Lo mejor es beber directamente el agua alcalina del ionizador, pero en su defecto, almacenar el agua en un recipiente de vidrio en un lugar fresco y oscuro, como el refrigerador.</p>
+                        </div>
+                
+                <!--  -->
+                
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Qué es el color blanco brumoso en el agua Agua Alcalina Antioxidante?</h3>
+                            <p>El aparente color brumoso que se ve al verter Agua Alcalina Antioxidante es que se esta liberando el hidrógeno activo saludable mediante la electrólisis; este fenómeno no plantea ningún problema. Si se deja reposar el agua un momento, el color blanco brumoso desaparece. La investigación enfocada en el hidrógeno disuelto liberado por la electrólisis al verter el agua fue presentada a la Asociación Japonesa para la funcionalidad del Agua Kangen® , reunida al final de diciembre del 2002. Esta investigación reveló que el Agua Kangen® Alcalina Antioxidante controla eficazmente la oxidación de lípidos en el cuerpo. Basado en este informe se reconoció las bondades del Agua Kangen® a nivel mundial y su crecimiento internacional.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cuál es el Efecto Mengen del consumo de agua de Kangen ®?</h3>
+                            <p>Dependiendo de la forma en que se consume, y el estado físico de la persona, es posible (aunque poco frecuentes) experimentar estreñimiento o diarrea de unos pocos días a unas pocas semanas ocasionalmente después de la primera vez que se bebe Agua Kangen® . En términos naturistas esto se conoce como el efecto Mengen 1. Las dos condiciones son particularmente similar en que en ambos casos, el remedio es tan eficaz que tiene un efecto negativo. Si esto ocurre, la cantidad de ingesta debe reducirse a la mitad o un cuarto de la cantidad anterior hasta que los síntomas hayan desaparecido. No debe detener la ingesta por completo, lo mejor es seguir pero en menores cantidades.</p>
+                        </div>
+        
+                <!--  -->
+        
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Qué distingue a los Ionizadores de Enagic de la Competencia?</h3>
+                            <p>Probado y aprobado por más de 6.500 médicos – Asociación Japonesa de Medicina Preventiva para enfermedades de adultos
+                            Certificado de dispositivos médicos del Ministerio de Salud y Bienestar de Japón. Se utiliza en cientos de hospitales en Japón.
+                            Vida útil de 15 – 25 años (Ahorra más en el largo plazo en comparación con otros ionizadores de agua). Micro-grupo de moléculas de agua para una mejor hidratación y absorción (5-6 por grupo) en comparación con el agua normal (15 a 20 por grupo). El uso de placas de titanio de grado médico mano-sumergido con platino (en lugar de la tecnología de malla utilizada por los competidores) para evitar que los productos químicos se filtre en el agua., este material es el de mejor calidad que existe para producir equipos de alta tecnología.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cuanto tiempo tardan los antioxidantes/ORP siendo eficaz?</h3>
+                            <p>ORP o potencial de Oxidación Reducción (antioxidante) disminuye en el agua alcalina Ionizada rápidamente, así que es mejor beberla fresca del ionizador. Si decides guardarla en un recipiente, los valores ORP caerán un 50% dentro de las primeras 24 hrs y el agua volverá a sus valores originales dentro de las 48 hrs más o menos.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Qué modelos de ionizadores vende Enagic?</h3>
+                            <p>Leveluk R, Leveluk Jr II, Leveluk DX II, Leveluk SD 501 y SD 501 Platinum Super 501</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cual es la diferencia entre ellos?</h3>
+                            <p>La diferencia principal es el número de placas que están en la cámara de la máquina. El numero de placas va aumentando paulatinamente desde 3 placas pequeñas (Leveluk R), 3 placas grandes (Jr II), 5 placas (DX II), 7 placas (SD 501 y SD501 Platinum) y el Súper 501 cuenta con dos cámaras de placas, una con 5 y otra con 7 placas. El número de placas se puede ver reflejado en 3 aspectos principales: la vida de la máquina, la frecuencia del mantenimiento y los niveles de ORP que puede alcanzar el agua. Entre más placas tenga la máquina, la vida de esta será mayor, llegando hasta 20 años en los modelos SD 501. Así mismo, entre mas placas tenga una maquina la frecuencia del mantenimiento es menor. Entre otras diferencias menores, los modelos SD 501 y Súper 501 tienen una voz que se activa cada vez que se solicita agua o cuando hay que hacer limpieza. Los modelos SD 501 Platinum tienen las indicaciones por voz en 5 idiomas, Ingles, español, Frances, Alemán y Japonés. La máquina Súper 501 está diseñada de tal manera que su punto fuerte es la producción de Ácida Fuerte en mayor cantidad y con menos costo por litro.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Puedo usar la máquina Súper 501 en mi casa?</h3>
+                            <p>Sí, no existe ninguna razón por la cual no se pueda usar en su casa, sin embargo debido a su diseño se recomienda usar esta máquina en lugares dónde se requieran grandes cantidades de Agua Ácida Fuerte para limpiar, como un restaurante u oficina.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Qué es el panel de control?</h3>
+                            <p>El panel de control son los botones (colores: morado, verde, amarillo y naranja) de funciones que están en la parte delantera de la máquina. Los botones sirven para seleccionar qué nivel de PH que se requiere.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Por qué el agua sale por 2 mangueras a la vez?</h3>
+                            <p>Durante la ionización, el agua es dividida dentro de la máquina y se requiere que los flujos salgan de la máquina. El flujo de la manguera principal es el que usaremos la mayoría del tiempo pero habrá ocasiones en las que también se utilice la otra manguera.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Por dónde sale el agua que estoy seleccionando en el panel de control?</h3>
+                            <p>De los 7 tipos de agua que producen las máquinas, 6 salen por la manguera flexible que se encuentra en la parte superior. Estas son el Agua Kangen® de los tres niveles (PH 8.5 a 9.5), Agua Limpia, Agua Ácida y Agua Kangen® Fuerte. Solamente en el caso del agua Ácida Fuerte (2.7 PH), ésta sale por la manguera secundaria (gris) y al mismo tiempo sale por la manguera principal Agua Kangen® Fuerte (11.0)</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Por qué sale en la pantalla de mi máquina la frase “Notice of Cleaning”?</h3>
+                            <p>A esto se le conoce como limpieza automática. Normalmente esta señal aparece cuando la máquina ha estado más de 15 minutos continuos produciendo agua e indica que se está realizando una limpieza automática por parte de la misma. También aparece cuando se ha utilizado agua Ácida Fuerte y cambiamos a cualquier otra de las aguas ya que se tiene que limpiar del líquido reforzador. En algunas ocasiones también se puede poner en estado de limpieza cuando la máquina pasa algún tiempo sin usarse.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Qué debo hacer cuando se realiza la limpieza automática (Notice of Cleaning)?</h3>
+                            <p>Solamente se debe dejar correr el agua hasta que la señal se quite de la pantalla. Después se empezará a producir el agua seleccionada automáticamente.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>El mensaje “Notice of Cleaning” no se quita después de dejar el agua fluyendo, ¿Qué debo hacer?</h3>
+                            <p>Si la máquina se queda en el ciclo de limpieza es porque probablemente tenga calcio pegado en las placas. Si esto sucede, el primer paso es dejar correr el agua por un periodo de tiempo mayor y esperar a que se quite el mensaje. Si se han realizado las limpiezas necesarias a la máquina con el E Cleaner y aun así no se quita el mensaje, favor de comunicarse a la oficina de Enagic para que se le realice una revisión.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Por qué el agua que sale de la máquina se ve turbia en algunas ocasiones?</h3>
+                            <p>El agua turbia indica que las moléculas de agua fueron descompuestas dentro de la ionización. Esto es totalmente normal e indica que la máquina esta limpia. En algunas ocasiones se verá más turbia que otras, esto depende de la velocidad del flujo del agua y de la limpieza de las placas. Entre más lento y más limpias estén las placas más turbia se verá el agua, es por esto que una máquina limpia siempre produce agua con cierto nivel de turbiedad.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿La máquina me indica “REPLACEMENT”, qué quiere decir eso?</h3>
+                            <p>Esto quiere decir que ya es tiempo de cambiar el filtro regular que está dentro de la máquina. ** Esta indicación NO es para el cambio de los filtros adicionales/externos. Mi máquina me indica “REPLACEMENT” pero tengo menos de 1 año con el filtro regular, ¿Cómo se que de verdad tengo que cambiarlo? El filtro interno está diseñado para filtrar aproximadamente once mil litros de agua, independientemente de la calidad de ésta. Para saber si es tiempo de cambiarlo seleccione en el Panel de Control Agua Limpia, (o puede apagar el equipo también), llene un vaso mediano con esta agua y haga la prueba de Cloro con el gotero. Si el agua se pinta de color Amarillo quiere decir que sí es necesario cambiar el filtro interno. Cuando el color del agua no cambia y permanece cristalina, se puede seguir usando el filtro interno, solamente presione el botón de “Reset” y listo. Recuerde hacer esta prueba periódicamente para revisar la calidad del filtro.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿La máquina me indica “PROTECTION”, qué es eso?Alternar título</h3>
+                            <p>Ninguna de nuestras máquinas están diseñadas para recibir agua caliente y esta indicación “Protection” se activa cuando la máquina está recibiendo agua caliente.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Por qué mi Agua Limpia (7.0 PH) sale de color azul claro y no verde cuando utilizo el probador de PH?</h3>
+                            <p>Esto puede llegar a ocurrir cuándo el nivel de dureza en el agua de la llave, es un tanto alto. Cuando el nivel de dureza es alto el agua limpia saldrá con un PH elevado y por consecuencia el color al medirla con el probador de PH será azulado.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Por qué mi Agua Ácida (5.5 PH) sale de color morado cuando utilizo el probador de PH?</h3>
+                            <p>Al igual que en la pregunta anterior, es de suma importancia conocer el PH/Nivel de Dureza de su agua original ya que cuando esto ocurre muy probablemente se deba a la alcalinidad/dureza de su toma de agua original.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>Desde que instalamos la máquina ha salido muy poca agua o casi no sale nada, ¿Qué es lo que sucede?</h3>
+                            <p>En algunas partes de Argentina hay problemas con la presión del agua en las casas, esto normalmente causa que el agua tenga dificultad pasando a través de la máquina. La presión comúnmente se aminora cuando además de la máquina, se instalan filtros EXTERNOS, (Pre Filtros, Suavizadores, antibacteriales, etc). La presión mínima para poder usar la maquina con filtros instalados es de 25 a 35 PSI.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿La máquina me indica “Increase Flow”, qué es eso?</h3>
+                            <p>Este indicador se activa cuando el flujo del agua es muy poco, ya sea por la falta de presión o porque la llave del agua no está abierta lo suficiente.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Por qué el agua tiene un sabor y un olor muy desagradable en algunas ocasiones?</h3>
+                            <p>Esto puede suceder por dos razones.
+
+                                1 Falta de presión de agua, cuando el flujo del agua es muy pobre el agua pasa más tiempo dentro del proceso de ionización, este tiempo extra hace que el agua salga más ionizada pero al mismo tiempo tiene un olor y sabor desagradable.
+                                
+                                2 Uso de agua dura ya sea de pozo o de rio. En este caso recomendamos evitar el uso de la maquina o utilizar un suavizador capaz de disminuir la dureza. En cualquiera de los dos casos sugerimos no utilizar la maquina hasta que se resuelva el problema.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cómo es el sabor del Agua Kangen® ?</h3>
+                            <p>El sabor del Agua Kangen® es un poco más suave de lo normal y se siente más ligera.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Me ayuda en algo el controlar el flujo del agua?</h3>
+                            <p>Sí, cuando se controla el flujo del agua mientras se produce Agua Ácida o Ácida Fuerte esto hace que se concentre más y tenga mejor efecto. Esto no se debe de hacer tan marcadamente con el agua que es para beber ya que puede tener un sabor y olor desagradable.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Se pueden mover las máquinas de lugar después de la instalación?</h3>
+                            <p>Sí, se pueden mover de lugar a dónde sea, sin embargo NO se deben mover mientras esté el líquido de Electrolysis Enhancer dentro de la máquina. Nunca ponga la máquina en posición horizontal, siempre debe de estar vertical como si estuviera siendo usada.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Qué pasa si muevo mi máquina con Electrolysis Enhancer dentro del compartimento?</h3>
+                            <p> El líquido puede entrar a la máquina y si entra en contacto con alguno de los circuitos, estos se quemarán y la máquina dejará de funcionar.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Qué son las partículas blancas que salen en el agua y se quedan impregnadas en los vasos y jarras?</h3>
+                            <p>El polvo blanco no es más que el mismo mineral que viene en el agua de origen. Es el resultado de la ionización que se lleva acabo dentro de las placas. Sin embargo, cuando este residuo blanco se presenta en cantidades mayores a las normales, es una señal de que ya es necesario hacerle una limpieza con el E Cleaner. Si en su caso los residuos son demasiados, usted tendrá que hacer la limpieza con el E Cleaner de 1 a 3 veces por mes dependiendo la cantidad de residuos. También sucede esto cuando el agua que le damos a la maquina es muy dura. En este caso la limpieza deberá de realizarse mas seguido y ademas utilizar un filtro suavizador para bajar los niveles de dureza.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Cómo se pueden limpiar los vasos y botes que tienen estos iones de calcio?</h3>
+                            <p>Para limpiar los contenedores con residuos blancos se puede utilizar vinagre blanco para remover el polvo y después enjuagar con agua limpia, ésta puede ser agua ácida fuerte o agua de nivel 7.0 de PH.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>Me interesa comprar uno de los ionizadores pero en mi casa ya tengo un sistema de filtros ¿Se puede comprar una máquina sin filtros extra?</h3>
+                            <p>Si usted ya cuenta con un sistema de filtración en su casa, puede comprar cualquiera de nuestros sistemas y utilizarlos sin problema siempre y cuando su sistema de filtracion no sea por Osomis Inversa. No es obligación conectar filtros externos a la máquina de Enagic. Esta situación varía siempre, según la calidad del agua en su localidad y las necesidades de cada cliente.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Se puede producir Agua Kangen® con agua que a pasado por un sistema de Osmosis Inversa o Destilación?</h3>
+                            <p>No, estos dos tipos de filtración eliminan los minerales del agua y estos son necesarios para poder producir la ionización.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Se puede usar agua de pozo para producir Agua Kangen® ?</h3>
+                            <p>En algunas ocasiones se puede producir y otras veces no, esto depende de si el agua del pozo es demasiado ácida o contiene gases de carbón ácido o ambos o también cuando es demasiado alcalina. En algunos casos se puede calibrar la máquina para que pueda aceptar el agua de pozo pero no siempre da los resultados correctos.</p>
+                        </div>
+
+                <!--  -->
+
+                        <div class="timeline-component timeline-content">
+                            <h3>En la pantalla de mi máquina no veo corriendo las flechas cuando produzco el agua, ¿Está todo bien?</h3>
+                            <p>Si al producir cualquier tipo de agua no se ven correr las fechas en la pantalla, lo más probable es que un censor esté dañado o también puede ser que la máquina solamente esté pasando agua de la llave sin realizar la ionización, por favor comuníquese a la oficina de Enagic de México para programar una revisión.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+                
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Cuál es el mantenimiento que se le debe de dar a mi máquina?</h3>
+                            <p>El único mantenimiento que se debe hacer es mantener limpias las placas de titanio en el interior de la máquina utilizando el kit de limpieza incluido con su equipo (excepto Leveluk R, kit de limpieza para 6 servicios)</p>
+                        </div>
+        
+                <!--  -->
+        
+                        <div class="timeline-component timeline-content">
+                            <h3>¿Por qué se tiene que realizar esta limpieza?</h3>
+                            <p>Esto se realiza debido a que los minerales en el agua se pegan en las placas de titanio después de la ionización. Después de un tiempo sin limpiar, las placas se cubren completamente de calcio y el agua deja de estar en contacto con las placas y no se puede realizar la ionización de manera correcta.</p>
+                        </div>
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class="timeline-empty">
+                        </div>
+                
+                <!--  -->
+                        
+                        <div class="timeline-empty">
+                        </div>     
+                        <div class="timeline-middle">
+                            <div class="timeline-circle"></div>
+                        </div>
+                        <div class=" timeline-component timeline-content">
+                            <h3>¿Qué tipos de limpieza existen?</h3>
+                            <p>Existen 4 tipos. Manual: se debe realizar todos los días por la mañana y consiste en producir agua Ácida (5.5 PH) por un minuto e inmediatamente producir agua limpia o Kangen por otro minuto. Esto hace que las placas cambien de polaridad y se liberen los iones de calcio que están adheridos a los polos. Automática (Notice of Cleaning): esta limpieza la realiza la máquina por si sola y sucede cuando la máquina ha producido agua por más de 15 minutos continuos. Cuando se realiza esta limpieza la máquina hará la indicación y esta agua no deberá de consumirse. Solamente se debe dejar correr el agua hasta que la señal termine. Esta limpieza SIEMPRE se lleva a cabo cuando se esta produciendo Agua Ácida Fuerte y después cambiamos a cualquier otro tipo de agua. E Cleaner: esta limpieza se realiza cada 3 o 4 semanas y se hace con un producto llamado E Cleaner. Para conocer como realizar esta limpieza por favor lea las instrucciones del producto o bien, revise el folleto “PAQUETE INFORMATIVO” en dónde podrá encontrar, pasó por paso cómo se hace esta limpieza. Limpieza Profunda: Esta limpieza se realiza en las instalaciones de Enagic y por personal autorizado en el departamento de servicio. Se debe realizar cuando el flujo del agua que sale de la manguera flexible superior se detiene o es muy poco o cuando el flujo de agua de la manguera secundaria es mayor que el de la manguera flexible. Esto sucede cuando no se hace ninguna de las limpiezas anteriores y las mangueras se tapan con el calcio.</p>
+                        </div>
+                   </div>
+                </div> 
+            </section>
+
+    </main>
+
+    <footer>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg></a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://wa.me/541136191930"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi bi-whatsapp" viewBox="0 0 17 17">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+              </svg></a>
+          </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./Js/main.js"></script>
+</body>
+</html>

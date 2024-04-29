@@ -1,5 +1,5 @@
 *{
-    font-family: Sans-serif;
+    font-family: "Gruppo", sans-serif;
     color: rgb(134, 134, 134);
 }
 
@@ -33,7 +33,7 @@ main{
     margin: 0; 
     margin-left: 10px;
     margin-top: 0px;
-    font-family: 'Lato' /*'Helvetica Neue'*/ /*'Source Sans Pro'*/ /*'Proxima Nova'*/ /*'Poppins' 'Inter' 'Roboto''Montserrat'*/;
+    font-family: "Julius Sans One", sans-serif;
 }
 
 .hexagono {
@@ -92,7 +92,7 @@ h2{
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 50px;
-    font-family: 'Lato';
+    font-family: "Julius Sans One", sans-serif;
 }
 
 #btnWhatsApp{
@@ -166,9 +166,10 @@ h2{
 
 .slogan p{
     color: #428bca;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: italic;
-    font-weight: 50;
+    font-weight: 150;
+    font-family: "Reenie Beanie";
 }
 
 /* ---- BENEFICIOS AGUA KANGEN ---- */
@@ -358,11 +359,20 @@ h2{
     object-fit: contain;
     padding: 5px;
     margin: 1.5rem;
+    opacity: 0.8;
+}
+
+.cetificacionesIcon:hover{
+    opacity: 1;
+    transition: 0.7s;
 }
 
 .offcanvas-title{
     color: rgb(15, 15, 15);
     text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-weight: bolder;
 }
 
 
@@ -479,6 +489,98 @@ footer svg{
     fill: white;
 }
 
+
+
+/* ----------- Timeline -------------------- */
+
+.preguntasFrecuentes{
+    margin-top: 20px;
+    color: #346d9e;
+}
+
+.design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    min-height: 100vh;
+    padding: 100px 0;
+}
+
+  
+.design {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+  
+.timeline {
+width: 80%;
+height: auto;
+max-width: 800px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+  
+.timeline-content {
+padding: 20px;
+background: rgb(15, 15, 15);
+-webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+        box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+border-radius: 5px;
+color: rgb(134, 134, 134);
+padding: 1.75rem;
+transition: 0.4s ease;
+overflow-wrap: break-word !important;
+margin: 1rem;
+margin-bottom: 20px;
+border-radius: 6px;
+}
+
+.timeline-content h3{
+color: #428bca;
+font-weight: bold;
+}
+
+.timeline-content p{
+color: white;
+}
+  
+.timeline-component {
+margin: 0px 20px 20px 20px;
+}
+  
+@media screen and (min-width: 768px) {
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+}
+.timeline-middle {
+    position: relative;
+    background-color: white;
+    width: 3px;
+    height: 100%;
+}
+.main-middle {
+    opacity: 0;
+}
+.timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+}
+
+
+
 /* ----------------------------- Media Queries -------------------------------- */
 
 @media only screen and (max-width: 500px) {
@@ -495,9 +597,13 @@ footer svg{
     }
 
     .slogan{
-        top: 75vh;
+        top: 85vh;
         right: 5%;
         left: 15%;
+    }
+
+    .slogan p{
+        font-size: 1.5rem ;
     }
 
     /* ----- vertical-menu ----- */
@@ -593,12 +699,13 @@ footer svg{
         margin-top: 1rem;
         margin-left: 0;
         margin-right: 0;
-        padding: 0.1rem;
+        padding: 1.5rem;
     }
 
     .banner img{
         height: 15rem;
         border-radius: 2%;
+        margin: 0;
     }
 
 
@@ -657,14 +764,26 @@ footer svg{
         margin-left: 25px;
     }
 
+    /*----------- Certificaciones ------------*/
+
     #certificaciones h2{
         font-size: 30px;
     }
 
-    .wavesContainer img {
-        height: 90px;
-        margin-left: 15px;
+    .cetificacionesIcon{
+        height: 100px;
+        width: 100px;
+        margin: 0.5rem;
+        opacity: 1;
     }
+    
+    .offcanvas-title{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
+    /* ---------------------------- */
 
     .equiposContainer .card-body{
         margin-left: 15px;
@@ -771,13 +890,14 @@ footer svg{
     }
 
     .slogan{
-        top: 70vh;
+        top: 80vh;
         right: 5%;
     }
 
     .slogan p{
-        font-size: 40px;
+        font-size: 3.5rem;
     }
+
 
      /* ----- vertical-menu ----- */
 
@@ -909,8 +1029,8 @@ footer svg{
 .banner img{
     height: 30rem;
     border-radius: 2%;
-    margin-left: 5rem;
-    margin-top: -50;
+    margin-left: 5rem !important;
+    margin: 0;
 }
 
 /* ---- CONTACT ---- */
