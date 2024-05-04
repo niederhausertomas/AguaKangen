@@ -31,7 +31,7 @@ main{
     transform: rotate(180deg); 
     text-align: center; 
     margin: 0; 
-    margin-left: 10px;
+    margin-left: 14px;
     margin-top: 0px;
     font-family: "Julius Sans One", sans-serif;
 }
@@ -68,6 +68,7 @@ main{
     display: none;
     margin-bottom: 0px;
     font-weight: bold;
+    font-family: "Julius Sans One", sans-serif;
 }
 
 .itemNavBar:hover{ 
@@ -166,7 +167,7 @@ h2{
 
 .slogan p{
     color: #428bca;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-style: italic;
     font-weight: 150;
     font-family: "Reenie Beanie";
@@ -597,13 +598,14 @@ margin: 0px 20px 20px 20px;
     }
 
     .slogan{
-        top: 85vh;
+        top: 75vh;
         right: 5%;
-        left: 15%;
+        
     }
 
     .slogan p{
-        font-size: 1.5rem ;
+        font-size: 2.5rem ;
+        font-weight: normal;
     }
 
     /* ----- vertical-menu ----- */
@@ -629,8 +631,8 @@ margin: 0px 20px 20px 20px;
 
     .vertical-menu h1 { 
         margin: 0px;
-        margin-left: 6px;
-        font-size: 20px;
+        margin-left: 7px;
+        font-size: 28px;
     } 
 
     #beneficios{
@@ -876,7 +878,7 @@ margin: 0px 20px 20px 20px;
 
 } 
 
-@media only screen and (min-width: 501px) and (max-width: 1023px) {
+@media only screen and (min-width: 501px) and (max-width: 1025px) {
 
     /* ---- Imagen de inicio ---- */
 
@@ -896,6 +898,7 @@ margin: 0px 20px 20px 20px;
 
     .slogan p{
         font-size: 3.5rem;
+        font-weight: normal;
     }
 
 
@@ -919,15 +922,15 @@ margin: 0px 20px 20px 20px;
 
     .vertical-menu h1 { 
         margin: 0px;
-        margin-left: 0px;
+        margin-left: 12px;
         font-size: 40px;
     }
 
     /* ----- Benefits ----- */
 
-    h2{
+    .beneficios h2{
         margin-left: 25px;
-        margin-top: 600px;
+        margin-top: 800px;
     }
 
     .benefitsContainer{
@@ -1031,6 +1034,13 @@ margin: 0px 20px 20px 20px;
     border-radius: 2%;
     margin-left: 5rem !important;
     margin: 0;
+}
+
+/* ---- Certificaciones ----- */
+
+#certificaciones h2{
+    margin-left: 25px;
+    margin-top: 600px;
 }
 
 /* ---- CONTACT ---- */
