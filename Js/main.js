@@ -1,3 +1,23 @@
+function toggleTitulo1(className) {
+    let titulos = document.querySelectorAll('.itemNavBar')
+    titulos.forEach(function(titulo) {
+        if (titulo.classList.contains(className.substr(1)) ) {
+            titulo.style.display = 'block'
+        } 
+    });
+}
+
+function toggleTitulo2(className) {
+    let titulos = document.querySelectorAll('.itemNavBar'); 
+    titulos.forEach(function(titulo) {
+        if (titulo.classList.contains(className.substr(1)) ) {
+            setTimeout(function() {
+            titulo.style.display = 'none'
+        }, 2000);
+        } 
+    })
+}
+
 function toggleTitulo(className) {
     let titulos = document.querySelectorAll('.itemNavBar'); 
     titulos.forEach(function(titulo) {

@@ -45,6 +45,7 @@ main{
     cursor: pointer;
 }
 
+
 .hexa1 {
     background-color: #428bca;
 }
@@ -98,11 +99,11 @@ h2{
 
 #btnWhatsApp{
     position: fixed;
-    top: 40px;
+    bottom: 40px;
     right: 40px;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
     text-align: center;
     fill: white;
     background-color: #00cd55a1;
@@ -112,16 +113,16 @@ h2{
 }
     
 #btnWhatsApp:hover{
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
+    height: 55px;
+    width: 55px;
+    line-height: 50px;
     transition: 0.5s;
     background-color: #00cd55e1;
 }
 
 #mailApp{
     position: fixed;
-    top: 100px;
+    top: 40px;
     right: 40px;
     height: 40px;
     width: 40px;
@@ -585,6 +586,14 @@ margin: 0px 20px 20px 20px;
 /* ----------------------------- Media Queries -------------------------------- */
 
 @media only screen and (max-width: 500px) {
+
+    #btnWhatsApp{
+        bottom: 20px;
+        right: 40px;
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
 
     /* ---- Imagen de inicio ---- */
 
