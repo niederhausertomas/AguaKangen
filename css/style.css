@@ -37,8 +37,8 @@ main{
 }
 
 .hexagono {
-    width: 30px;
-    height: 40px;
+    width: 25px;
+    height: 35px;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     transform: rotate(90deg);
     margin-left: 15px;
@@ -124,9 +124,9 @@ h2{
     position: fixed;
     top: 40px;
     right: 40px;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
     text-align: center;
     fill: white;
     background-color: #428bca8a;
@@ -136,11 +136,34 @@ h2{
 }
     
 #mailApp:hover{
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
+    height: 55px;
+    width: 55px;
+    line-height: 50px;
     transition: 0.5s;
     background-color: rgb(75, 135, 184);
+}
+
+#btnInstagram{
+    position: fixed;
+    top: 100px;
+    right: 40px;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+    fill: white;
+    background-color: #c135849c;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 50;
+}
+
+#btnInstagram:hover{
+    height: 55px;
+    width: 55px;
+    line-height: 50px;
+    transition: 0.5s;
+    background-color: #C13584;
 }
 
 /* ---- Imagen de inicio ---- */
@@ -581,13 +604,40 @@ margin: 0px 20px 20px 20px;
 }
 }
 
+/* --- Información útil --- */
+.infoImagen {
+    margin: 2rem;
+    text-align: center;   
+}
 
+.infoImagen img{
+    height: 40rem;
+    -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+    border-radius: 5px;
+}
 
 /* ----------------------------- Media Queries -------------------------------- */
 
 @media only screen and (max-width: 500px) {
 
     #btnWhatsApp{
+        bottom: 20px;
+        right: 40px;
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
+
+    #mailApp{
+        bottom: 20px;
+        right: 40px;
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
+
+    #btnInstagram{
         bottom: 20px;
         right: 40px;
         height: 40px;
@@ -885,6 +935,20 @@ margin: 0px 20px 20px 20px;
         width: 180px;
     }
 
+/* --- Información útil --- */
+    .infoUtil{
+        font-size: 22px;
+    }
+
+    .infoImagen {
+        margin: 0.5rem;
+        margin-bottom: 4rem;   
+    }
+
+    .infoImagen img{
+        height: 15rem;
+    }
+
 } 
 
 @media only screen and (min-width: 501px) and (max-width: 1025px) {
@@ -1069,6 +1133,17 @@ margin: 0px 20px 20px 20px;
     width: 350px;
 }
 
+/* --- Información útil --- */
+
+
+.infoImagen {
+    margin: 2rem;
+    margin-bottom: 14rem;   
+}
+
+.infoImagen img{
+    height: 25rem;
+}
 
 /* -------------------------- */
 }
