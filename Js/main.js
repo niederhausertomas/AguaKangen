@@ -58,7 +58,7 @@ function autoChangeBannerImage() {
 }
 
 function startAutoChange() {
-    intervalId = setInterval(autoChangeBannerImage, 3000);
+    intervalId = setInterval(autoChangeBannerImage, 5000);
 }
 
 function stopAutoChange() {
@@ -73,7 +73,7 @@ document.querySelectorAll('.thumbnail').forEach((thumbnail, index) => {
         stopAutoChange();
         setTimeout(() => {
             startAutoChange();
-        }, 6000);
+        }, 10000);
     });
 });
 
