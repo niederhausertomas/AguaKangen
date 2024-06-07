@@ -416,6 +416,7 @@ h2{
 
 .nosotros{
     background-color: rgb(15, 15, 15);
+    border: 1px solid white;
 }
 
 .nosotros .card-body {
@@ -439,6 +440,19 @@ h2{
 .nosotros .card-body .card-text strong{
     color: rgb(134, 134, 134);
 }
+
+
+/* ------- HISTORIA -------- */
+
+#historia h2{
+    color:#428bca;
+}
+
+.pre-line {
+    white-space: pre-line;
+    padding: 10px 30px;
+  }
+
 
 /* ------- CONTACT -------- */
 
