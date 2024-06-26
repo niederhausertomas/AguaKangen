@@ -23,9 +23,17 @@ function toggleTitulo(className) {
     titulos.forEach(function(titulo) {
         if (titulo.classList.contains(className.substr(1)) && titulo.style.display != 'block') {
             titulo.style.display = 'block'; 
+
         } else {
             titulo.style.display = 'none'; 
         }
+    });
+
+    let h3Elements = document.querySelectorAll(className);
+    h3Elements.forEach(function(h3) {
+        h3.addEventListener('click', function() {
+            this.style.display = 'none';
+        });
     });
 }
 
